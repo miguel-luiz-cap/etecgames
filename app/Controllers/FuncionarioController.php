@@ -4,7 +4,7 @@ namespace App\Controllers;
 class FuncionarioController extends BaseController {
 	public function index()
 	{
-		inserirFuncionario();
+		return redirect()->to(base_url("FuncionarioController/inserirFuncionario"));
 	}
 
 	public function inserirFuncionario()
