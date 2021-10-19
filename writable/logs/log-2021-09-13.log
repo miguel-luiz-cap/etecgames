@@ -1,0 +1,205 @@
+CRITICAL - 2021-09-13 19:20:44 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(84): CodeIgniter\Model->update('1', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(51): App\Controllers\UsuarioController->alterarUsuario('1')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:20:55 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(84): CodeIgniter\Model->update('1', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(51): App\Controllers\UsuarioController->alterarUsuario('1')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:47:41 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(87): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(53): App\Controllers\UsuarioController->alterarUsuario('5', 'dasds@teste.com')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:48:14 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(87): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(53): App\Controllers\UsuarioController->alterarUsuario('5', 'dasds@teste.com')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:52:03 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(89): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:53:05 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(89): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:54:34 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(89): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:56:12 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(89): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:58:05 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(86): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:59:06 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(85): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 19:59:32 --> Call to undefined function App\Controllers\update()
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-13 19:59:50 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(85): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 20:03:53 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(86): CodeIgniter\Model->update('5', Object(stdClass))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 20:05:42 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(86): CodeIgniter\Model->update('5', Object(stdClass))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 20:08:40 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Object(stdClass), Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(86): CodeIgniter\Model->update(Object(stdClass), Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 20:09:18 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(86): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 20:09:54 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray('aaaaasdaaaa@tes...', 'update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, 'aaaaasdaaaa@tes...')
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(86): CodeIgniter\Model->update('5', 'aaaaasdaaaa@tes...')
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 20:13:12 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(85): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 20:20:46 --> There is no data to update.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(86): CodeIgniter\Model->update('5', Object(App\Models\UsuarioModel))
+#3 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(54): App\Controllers\UsuarioController->alterarUsuario('5')
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 20:34:46 --> There is no data to insert.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(27): CodeIgniter\Model->insert()
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->inserirUsuario()
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-13 20:35:04 --> There is no data to insert.
+#0 C:\xampp\htdocs\2021\etecgames\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\2021\etecgames\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(27): CodeIgniter\Model->insert()
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->inserirUsuario()
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

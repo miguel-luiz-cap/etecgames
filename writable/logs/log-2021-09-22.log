@@ -1,0 +1,31 @@
+CRITICAL - 2021-09-22 19:58:16 --> Undefined variable: fornecedores
+#0 C:\xampp\htdocs\2021\etecgames\app\Views\listaForn.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\2021\etecgames\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\2021\etecgames\system\Common.php(1271): CodeIgniter\View\View->render('listaForn', Array, true)
+#4 C:\xampp\htdocs\2021\etecgames\app\Controllers\FornecedorController.php(51): view('listaForn', Array)
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\FornecedorController->todosFornecedores()
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FornecedorController))
+#7 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 20:01:19 --> Undefined variable: nomeForn
+#0 C:\xampp\htdocs\2021\etecgames\app\Views\listaCodForn.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\2021\etecgames\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\2021\etecgames\system\Common.php(1271): CodeIgniter\View\View->render('listaCodForn', Array, true)
+#4 C:\xampp\htdocs\2021\etecgames\app\Controllers\FornecedorController.php(71): view('listaCodForn', Array)
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\FornecedorController->listaCodFornecedor()
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FornecedorController))
+#7 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 20:10:32 --> Invalid file: cadFornecedor.php
+#0 C:\xampp\htdocs\2021\etecgames\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadFornecedor.p...')
+#1 C:\xampp\htdocs\2021\etecgames\system\Common.php(1271): CodeIgniter\View\View->render('cadFornecedor', Array, true)
+#2 C:\xampp\htdocs\2021\etecgames\app\Controllers\FornecedorController.php(8): view('cadFornecedor')
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\FornecedorController->index()
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FornecedorController))
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

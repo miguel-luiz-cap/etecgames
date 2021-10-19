@@ -1,0 +1,110 @@
+CRITICAL - 2021-09-27 20:09:06 --> Undefined variable: cor
+#0 C:\xampp\htdocs\2021\etecgames\app\Views\cadUsuario.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\2021\etecgames\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\2021\etecgames\system\Common.php(1271): CodeIgniter\View\View->render('cadUsuario', Array, true)
+#4 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(37): view('cadUsuario', Array)
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->inserirUsuario()
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-27 20:10:30 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\FornecedorController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\FornecedorController->inserirFornecedor()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FornecedorController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 20:31:33 --> Undefined variable: sucess_icon
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->inserirUsuario()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 20:57:58 --> Undefined variable: msg
+#0 C:\xampp\htdocs\2021\etecgames\app\Views\listaCodUsu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\2021\etecgames\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\2021\etecgames\system\Common.php(1271): CodeIgniter\View\View->render('listaCodUsu', Array, true)
+#4 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(188): view('listaCodUsu', Array)
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->listaCodUsuario()
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-27 21:10:21 --> Undefined variable: msg
+#0 C:\xampp\htdocs\2021\etecgames\app\Views\header.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\2021\etecgames\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\2021\etecgames\system\Common.php(1271): CodeIgniter\View\View->render('header', Array, true)
+#4 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(114): view('header')
+#5 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#6 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-27 21:33:00 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->inserirUsuario()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 21:33:26 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->inserirUsuario()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 21:33:27 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->inserirUsuario()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 21:33:45 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->inserirUsuario()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 21:33:56 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\FornecedorController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\FornecedorController->inserirFornecedor()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FornecedorController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 21:35:19 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\FornecedorController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\FornecedorController->inserirFornecedor()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FornecedorController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 21:35:21 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\FornecedorController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\FornecedorController->inserirFornecedor()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FornecedorController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 21:35:30 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\FornecedorController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\FornecedorController->inserirFornecedor()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FornecedorController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 21:38:47 --> Undefined variable: data
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\FornecedorController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\FornecedorController->inserirFornecedor()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FornecedorController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
