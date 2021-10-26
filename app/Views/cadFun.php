@@ -5,7 +5,7 @@ $codusuario = isset($usuario->codusu) ? $usuario->codusu : null;
 if($codusuario && $codusuario!=null) :
 ?>
 	<div class="mb-3">
-		<label for="nome" class="form-label">Código Usuario</label>
+		<label for="nome" class="form-label">Código Usuário</label>
 		<input type="text" class="form-control" id="codigo" readonly name="codusu_FK" value="<?php echo ($codusuario); ?>">
 	</div>
 	<div class="mb-3">
