@@ -1,0 +1,15 @@
+CRITICAL - 2021-10-25 19:47:35 --> Object of class App\Controllers\FuncionarioController could not be converted to string
+#0 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 19:56:44 --> FuncionarioController/inserirFuncionario route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\2021\etecgames\system\Helpers\url_helper.php(656): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('FuncionarioCont...')
+#1 C:\xampp\htdocs\2021\etecgames\app\Controllers\UsuarioController.php(73): url_to('FuncionarioCont...')
+#2 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(928): App\Controllers\UsuarioController->todosUsuarios()
+#3 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#4 C:\xampp\htdocs\2021\etecgames\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\2021\etecgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

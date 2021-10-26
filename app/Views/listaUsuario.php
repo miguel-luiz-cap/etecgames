@@ -4,6 +4,7 @@
         <th>Email</th>
         <th>Alterar</th>
         <th>Excluir</th>
+        <th>Cad. Funcionário</th>
     </thead>
     <tbody>
         <?php foreach ($usuarios as $usuario) : ?>
@@ -15,6 +16,12 @@
                 </td>
                 <td>
                     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deletarUsuModal" codigo="<?php echo ($usuario->codusu); ?>" email='<?php echo ($usuario->emailUsu) ?>'>Deletar</button>
+                </td>
+                <td>
+                    <form method="POST" action="../FuncionarioController/inserirFuncionario"> 
+                        <input type="hidden" name="codUsuBusca" value="<?php echo ($usuario->codusu); ?>" class="form-control" id="codusuario" readonly>
+                        <button type="submit" class="btn btn-primary">Cad. funcionário</button>
+                    </form>
                 </td>
 
             </tr>

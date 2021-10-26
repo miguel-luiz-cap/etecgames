@@ -14,7 +14,7 @@ class FuncionarioController extends BaseController {
 		$UsuarioModel = new \App\Models\UsuarioModel();
 		if($request -> getMethod() === 'post') 
 		{			
-			$codusuario = $request->getPost('codUsu');
+			$codusuario = $request->getPost('codUsuBusca');
 			$registros = $UsuarioModel->find($codusuario);
 	
 			if(!isset($registros->codusu) && $codusuario!=null) {

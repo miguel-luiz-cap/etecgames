@@ -53,6 +53,10 @@ class UsuarioController extends BaseController {
 		$request = service('request');
 		$codusuario = $request->getPost('codUsu');
 		$codUsuAlterar = $request->getPost('codUsuAlterar');
+		
+		//$codUsuBusca = $request->getPost('codUsuBusca');
+		//$codusu_FK = $request->getPost('codusu_FK');
+
 		//$alterando = $request->getGet('alterar');
 		//$excluindo = $request->getGet('delete');
 
@@ -64,6 +68,15 @@ class UsuarioController extends BaseController {
 			$this->alterarUsuario($codUsuAlterar, 0);
 			//return redirect()->to(base_url('UsuarioController/todosUsuarios'));
 		}
+		/*else if($codUsuBusca || $codusu_FK) {
+			$FuncControler = new \App\Controllers\FuncionarioController();
+			
+			//url_title('FuncionarioController/inserirFuncionario');
+			//url_to('FuncionarioController/inserirFuncionario');
+			return $FuncControler->inserirFuncionario();
+			//return redirect()->to(base_url('FuncionarioController/inserirFuncionario'));
+		}*/
+
 		/*else if($alterando) {
 			if($alterando == 1) {
 				$data['msg'] = "Usuario alterado com sucesso";
