@@ -84,9 +84,12 @@ class FuncionarioController extends BaseController {
 		echo view('listaFun', $data);
 		echo view('footer');
 	}
-	public function listaCodFuncionario() {
+	public function buscaFuncionario() {
 		$request = service('request');
+		$searchMode = $request->getPost('searchMode');
 		$codFuncionario = $request->getPost('codFun');
+		$nomeFun = $request->getPost('nomeFun');
+		$foneFun = $request->getPost('foneFun');
 		$codFunDel = $request->getPost('codFunDel');
 		$codFunAlterar = $request->getPost('codFunAlterar');
 
@@ -97,14 +100,34 @@ class FuncionarioController extends BaseController {
 			$this->alterarFuncionario($codFunAlterar, 1);
 		}
 
+		if($searchMode == null) {
+			echo view('header');
+			echo view('buscaFun');
+			echo view('footer');
+			return; 
+		}
+
 		$FuncionarioModel = new \App\Models\FuncionarioModel();
-		$registros = $FuncionarioModel->find($codFuncionario);
+
+		switch($searchMode) {
+			case 2: // Nome
+				$registros = $FuncionarioModel->Like('nomeFun', $nomeFun)->findAll();
+				break;
+			case 3: // Telefone
+				$registros = $FuncionarioModel->Like('foneFun', $foneFun)->findAll();
+				break;
+			default: // Codigo
+				$registros = $FuncionarioModel->find($codFuncionario);
+				break;
+		}
 
 
+		$data['funcionarios'] = $registros;
+		$data['searchModeRd'] = $searchMode;
 
-		$data['funcionario'] = $registros;
+		$qtdEncontrado = count((array)$registros);
 
-		if(!isset($registros->codFun) && $codFuncionario!=null) {
+		if($qtdEncontrado <= 0) {
 			$data['msg'] = 'Funcionario não encontrado';
 			$data['cor'] = 'alert-warning';
 			$data['icon'] = 
@@ -112,10 +135,18 @@ class FuncionarioController extends BaseController {
 				<path d='M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z'/>
 			</svg>";
 		}
+		else {
+			$data['msg'] = "Foram encontrado(s) " . (($searchMode == 1 || $qtdEncontrado == 1) ? "1 funcionário com sucesso!" : ($qtdEncontrado . " funcionários com sucesso!")) ;
+			$data['cor'] = 'alert-success';
+			$data['icon'] = 
+			"<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='currentColor' class='bi bi-check-circle-fill flex-shrink-0 me-2' viewBox='0 0 16 16' aria-label='Success:'>
+				<path d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z'/>
+			</svg>";
+		}
 
 		echo view('header', $data);
-		echo view('listaCodFun', $data);
-		echo view('footer');		
+		echo view('buscaFun', $data);
+		echo view('footer');	
 	}
 	public function alterarFuncionario($codFunAlterar=null, $page=null) {
 

@@ -30,8 +30,8 @@
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="nbFun">
 								<li><a class="dropdown-item" href="<?php echo base_url('./FuncionarioController/inserirFuncionario')?>">Cadastro</a></li>
-									<li><a class="dropdown-item" href="<?php echo base_url('./FuncionarioController/todosFuncionarios')?>">Pesquisar Todos</a></li>
-									<li><a class="dropdown-item" href="<?php echo base_url('./FuncionarioController/listaCodFuncionario')?>">Pesquisar por codigo</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./FuncionarioController/todosFuncionarios')?>">Lista de Funcionários</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./FuncionarioController/buscaFuncionario')?>">Buscar Funcionário</a></li>
 								</ul>
 							</li>
 							<li class="nav-item dropdown">
@@ -50,8 +50,8 @@
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="nbUsu">
 									<li><a class="dropdown-item" href="<?php echo base_url('./UsuarioController/inserirUsuario')?>">Cadastro</a></li>
-									<li><a class="dropdown-item" href="<?php echo base_url('./UsuarioController/todosUsuarios')?>">Pesquisar Todos</a></li>
-									<li><a class="dropdown-item" href="<?php echo base_url('./UsuarioController/listaCodUsuario')?>">Pesquisar por codigo</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./UsuarioController/todosUsuarios')?>">Lista de Usuários</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./UsuarioController/buscaUsuario')?>">Buscar Usuários</a></li>
 								</ul>
 							</li>
 							<li class="nav-item dropdown">
@@ -60,8 +60,8 @@
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="nbForn">
 								<li><a class="dropdown-item" href="<?php echo base_url('./FornecedorController/inserirFornecedor')?>">Cadastro</a></li>
-									<li><a class="dropdown-item" href="<?php echo base_url('./FornecedorController/todosFornecedores')?>">Pesquisar Todos</a></li>
-									<li><a class="dropdown-item" href="<?php echo base_url('./FornecedorController/listaCodFornecedor')?>">Pesquisar por codigo</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./FornecedorController/todosFornecedores')?>">Lista de Fornecedores</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./FornecedorController/buscaFornecedor')?>">Buscar Fornecedores</a></li>
 								</ul>
 							</li>
 
