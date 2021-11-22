@@ -24,7 +24,7 @@ if($codusuario && $codusuario!=null) :
 
 	<div>
         <label for='codusu' class='form-label'>Digite o Código do usuário para poder promover para funcionário</label>
-        <input type='number' name='codUsuBusca' id='codusu' class='form-control' placeholder='Exemplo: 123' />
+        <input type='number' name='codUsuBusca' id='codusu' class='form-control' placeholder='Exemplo: 123' required/>
     </div>
 
     <div class='col-12 mt-4'>
