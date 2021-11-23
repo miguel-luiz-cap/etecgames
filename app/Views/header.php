@@ -21,7 +21,7 @@
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="<?php echo base_url('./')?>">Home</a>
+								<a class="nav-link" aria-current="page" href="<?php echo base_url('./')?>">Home</a>
 							</li>
 
 							<li class="nav-item dropdown">
@@ -35,13 +35,13 @@
 								</ul>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<a class="nav-link dropdown-toggle" href="#" id="nbCatJogo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 									Jogos
 								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<li><a class="dropdown-item" href="#">Cadastro</a></li>
-									<li><a class="dropdown-item" href="#">Pesquisar</a></li>
-									<li><a class="dropdown-item" href="#">Alterar/Deletar</a></li>
+								<ul class="dropdown-menu" aria-labelledby="nbCatJogo">
+									<li><a class="dropdown-item" href="<?php echo base_url('./CatJogoController/inserirCatJogo')?>">Cadastrar Categoria</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./CatJogoController/todosCatJogo')?>">Lista de Categorias</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./CatJogoController/buscaCatJogo')?>">Buscar Categorias</a></li>
 								</ul>
 							</li>
 							<li class="nav-item dropdown">
@@ -62,6 +62,16 @@
 								<li><a class="dropdown-item" href="<?php echo base_url('./FornecedorController/inserirFornecedor')?>">Cadastro</a></li>
 									<li><a class="dropdown-item" href="<?php echo base_url('./FornecedorController/todosFornecedores')?>">Lista de Fornecedores</a></li>
 									<li><a class="dropdown-item" href="<?php echo base_url('./FornecedorController/buscaFornecedor')?>">Buscar Fornecedores</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="nbCli" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Cliente
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="nbCli">
+								<li><a class="dropdown-item" href="<?php echo base_url('./ClienteController/inserirCliente')?>">Cadastro</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./ClienteController/todosClientes')?>">Lista de Clientes</a></li>
+									<li><a class="dropdown-item" href="<?php echo base_url('./ClienteController/buscaCliente')?>">Buscar Cliente</a></li>
 								</ul>
 							</li>
 
